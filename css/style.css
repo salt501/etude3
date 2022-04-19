@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.mv {
+  position: relative;
+  width: 70%;
+  height: 600px;
+  margin: 30px auto 20px;
+}
+
+.mv img {
+  position: absolute;
+  width: 100%;
+}
+
+.m-img {
+  display: none;
+
+}
+
+.show {
+  display: block;
+  animation: fadeout-keyframes 0.5s ease 0s 1 forwards;
+}
+
+.sub {
+  width: 70%;
+  margin: 0 auto 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 3%;
+}
+
+.sub img {
+  width: 17.6%;
+}
+
+@keyframes fadeout-keyframes {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
